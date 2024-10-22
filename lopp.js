@@ -25,11 +25,21 @@ for (let i = 1; i <= n; i++) {
   console.log("sum is=", (sum += i));
 }*/
 // while loop diye
-let m;
+/*let m;
 m = parseInt(prompt("Enter a number "));
 let j = 1;
 sun = 0;
 while (j <= m) {
   console.log("sum is =", (sun += j));
   j++;
-}
+}*/
+//do while loop diye
+
+let p;
+p = parseInt(prompt("Enter a number"));
+let k = 0;
+let som = 0;
+do {
+  console.log("som is=", (som += k));
+  k++;
+} while (k <= p);
