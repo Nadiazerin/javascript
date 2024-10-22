@@ -1,4 +1,4 @@
-// operation in js
+/* operation in js
 let a = 10;
 let b = 5;
 
@@ -53,4 +53,13 @@ if (age < 25) {
 // ternary operators
 let age = 25;
 let result = age > 25 ? "adult" : "Not adult";
-console.log(result);
+console.log(result);*/
+
+/*let gameNum = 25;
+let userNum = Number(prompt("Guess the number"));
+while (gameNum != userNum) {
+  userName = Number(prompt("wrong number! pls try again"));
+}
+console.log("congratulations");*/
+let userInput = prompt("Please enter your name:");
+console.log(userInput);
