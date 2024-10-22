@@ -16,6 +16,11 @@ do {
   j++;
 } while (j <= 5);*/
 // display sum of n natural  number
+//for loop
+const prompt = require("prompt-sync")();
 let n;
 n = parseInt(prompt("Enter a number"));
-console.log(n);
+let sum = 0;
+for (let i = 1; i <= n; i++) {
+  console.log("sum is=", (sum += i));
+}
