@@ -35,11 +35,18 @@ while (j <= m) {
 }*/
 //do while loop diye
 
-let p;
+/*let p;
 p = parseInt(prompt("Enter a number"));
 let k = 0;
 let som = 0;
 do {
   console.log("som is=", (som += k));
   k++;
-} while (k <= p);
+} while (k <= p);*/
+// even number er sum
+let n;
+n = parseInt(prompt("Enter a number"));
+let sum = 0;
+for (let i = 1; i <= n; i++) {
+  if (i % 2 == 0) console.log("sum is=", (sum += i));
+}
