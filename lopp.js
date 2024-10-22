@@ -18,9 +18,18 @@ do {
 // display sum of n natural  number
 //for loop
 const prompt = require("prompt-sync")();
-let n;
+/*let n;
 n = parseInt(prompt("Enter a number"));
 let sum = 0;
 for (let i = 1; i <= n; i++) {
   console.log("sum is=", (sum += i));
+}*/
+// while loop diye
+let m;
+m = parseInt(prompt("Enter a number "));
+let j = 1;
+sun = 0;
+while (j <= m) {
+  console.log("sum is =", (sun += j));
+  j++;
 }
