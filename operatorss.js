@@ -61,5 +61,5 @@ while (gameNum != userNum) {
   userName = Number(prompt("wrong number! pls try again"));
 }
 console.log("congratulations");*/
-let userInput = prompt("Please enter your name:");
-console.log(userInput);
+let n = "okey";
+console.log(n.length);

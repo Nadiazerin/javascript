@@ -1,4 +1,4 @@
-const prompt = require("prompt-sync")();
+/*const prompt = require("prompt-sync")();
 let a,
   b,
   sum = 0;
@@ -37,4 +37,4 @@ let k = 1;
 do {
   console.log("sum is=", (sum = sum + k));
   k++;
-} while (k <= r);
+} while (k <= r);*/
