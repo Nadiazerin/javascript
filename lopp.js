@@ -66,7 +66,7 @@ n = parseInt(prompt("Enter a number="));
 while (i <= 10) {
   console.log(i * n);
   i++;
-}*/
+}
 
 // for of loop
 let a = "i love u";
@@ -86,4 +86,14 @@ let student = {
 
 for (let key in student) {
   console.log(key, student[key]);
+}
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+}*/
+
+let heroes = ["ironman", "hulk", "spiderman", "thor"];
+for (let i = 0; i < heroes.length; i++) {
+  console.log(heroes[i]);
 }
